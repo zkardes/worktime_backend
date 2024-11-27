@@ -1,0 +1,7 @@
+com/oezkardes/worktime/model/TimeTracking.class
+com/oezkardes/worktime/repository/UserRepository.class
+com/oezkardes/worktime/model/Role$Type.class
+com/oezkardes/worktime/model/User.class
+com/oezkardes/worktime/repository/TimeTrackingRepository.class
+com/oezkardes/worktime/model/Role.class
+com/oezkardes/worktime/WorktimeApplication.class
