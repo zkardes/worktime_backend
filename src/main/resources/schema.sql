@@ -57,3 +57,4 @@ CREATE TABLE timesheet (
     created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP, -- Creation timestamp
     updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP -- Last update timestamp
 );
+

@@ -10,10 +10,12 @@ import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
 import jakarta.persistence.JoinColumn;
 import jakarta.persistence.ManyToOne;
+import jakarta.persistence.Table;
 
 @Entity
+@Table(name = "time_tracking")
 public class TimeTracking {
-    
+
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
@@ -28,8 +30,12 @@ public class TimeTracking {
     private Duration duration; // Automatisch berechnet
     private Duration overtime; // Automatisch berechnet
 
-    public TimeTracking(Duration overtime){
-        this.overtime = overtime;
+    // No Args for JPA
+    public TimeTracking() {
+    }
+
+    public TimeTracking(User user) {
+        this.user = user;
     }
 
     public LocalDate getDate() {
@@ -80,7 +86,4 @@ public class TimeTracking {
         return user;
     }
 
-    
-
-    
 }

@@ -2,10 +2,10 @@ package com.oezkardes.worktime.model;
 
 public class Role {
 
-    enum Type{
+    public enum Type {
         EMPLOYEE,
         ADMIN,
         ITCONFIG
     }
-    
+
 }
