@@ -8,7 +8,6 @@ import org.springframework.security.core.annotation.AuthenticationPrincipal;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.PutMapping;
-import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
@@ -51,7 +50,7 @@ public class TimeTrackingController {
         Optional<User> user = userService.getUserbyEmail(loginUser.getUsername());
         if (user.isPresent()) {
             User presentUser = user.get();
-            TimeTracking createdTracking = timeTrackingService.initTimeTracking(user.get());
+            TimeTracking createdTracking = timeTrackingService.initTimeTracking(presentUser);
             return ResponseEntity.ok(createdTracking);
         } else {
             return ResponseEntity.ok(null);

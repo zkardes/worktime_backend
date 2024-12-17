@@ -1,5 +1,6 @@
 /Users/zkardes/development/Arbeitszeiten/worktime_backend/src/main/java/com/oezkardes/worktime/WorktimeApplication.java
 /Users/zkardes/development/Arbeitszeiten/worktime_backend/src/main/java/com/oezkardes/worktime/controller/AdminController.java
+/Users/zkardes/development/Arbeitszeiten/worktime_backend/src/main/java/com/oezkardes/worktime/controller/AuthController.java
 /Users/zkardes/development/Arbeitszeiten/worktime_backend/src/main/java/com/oezkardes/worktime/controller/TimeTrackingController.java
 /Users/zkardes/development/Arbeitszeiten/worktime_backend/src/main/java/com/oezkardes/worktime/controller/UserController.java
 /Users/zkardes/development/Arbeitszeiten/worktime_backend/src/main/java/com/oezkardes/worktime/model/Admin.java
@@ -9,6 +10,8 @@
 /Users/zkardes/development/Arbeitszeiten/worktime_backend/src/main/java/com/oezkardes/worktime/repository/AdminRepository.java
 /Users/zkardes/development/Arbeitszeiten/worktime_backend/src/main/java/com/oezkardes/worktime/repository/TimeTrackingRepository.java
 /Users/zkardes/development/Arbeitszeiten/worktime_backend/src/main/java/com/oezkardes/worktime/repository/UserRepository.java
+/Users/zkardes/development/Arbeitszeiten/worktime_backend/src/main/java/com/oezkardes/worktime/security/CustomUserDetailsService.java
+/Users/zkardes/development/Arbeitszeiten/worktime_backend/src/main/java/com/oezkardes/worktime/security/SecurityConfig.java
 /Users/zkardes/development/Arbeitszeiten/worktime_backend/src/main/java/com/oezkardes/worktime/service/AdminService.java
+/Users/zkardes/development/Arbeitszeiten/worktime_backend/src/main/java/com/oezkardes/worktime/service/TimeTrackingService.java
 /Users/zkardes/development/Arbeitszeiten/worktime_backend/src/main/java/com/oezkardes/worktime/service/UserService.java
-/Users/zkardes/development/Arbeitszeiten/worktime_backend/src/main/java/com/oezkardes/worktime/service/WorkTimeService.java
